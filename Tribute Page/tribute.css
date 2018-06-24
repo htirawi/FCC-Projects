@@ -1,0 +1,37 @@
+body{
+	background-color: #eee;
+}
+
+#image {
+	display:block; 
+	max-width: 100%; 
+	height:auto;
+	background-color: white;
+}
+
+.centerTitle {
+	text-align: center;
+	margin: auto;
+}
+
+.center {
+	display: block;
+	text-align: initial;
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+li{
+	margin-top: 10px;
+}
+
+.quote{
+	font-style: italic;
+	text-align: center;
+	font-size: 18px;
+}
+
+.wiki{
+	text-align: center;
+}
