@@ -1,0 +1,51 @@
+body {
+	background-color: #BDF1F6;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.85em;
+	color: rgba(66,66,66 ,1);
+	height: 100vh;
+	width: 100vw;
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	width: 75%;
+	background-color: #F2FCFC;
+	display: flex;
+	border-radius: 15px;
+	margin: 0 auto;
+}
+
+/*make the width of both 50% i.e half and equal.*/
+section {
+	width: 100%;
+	padding: 70px 50px;
+}
+
+section {
+	margin: 0 auto;
+	border-radius: 4px;
+	width: 75%;
+	max-width: 900px;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+
+p {
+	line-height: 1.7 /* change this to a higher value like 2 0r 3 to see the difference*/
+}
+
+#title{
+	text-align: center;
+}
+
+div{
+	position: static;
+}
+
+#description{
+	text-align: center;
+}
