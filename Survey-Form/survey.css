@@ -5,9 +5,7 @@ body {
 	color: rgba(66,66,66 ,1);
 	height: 100vh;
 	width: 100vw;
-	display: block;
-	justify-content: center;
-	align-items: center;
+	text-align: center;
 }
 
 main {
@@ -16,12 +14,6 @@ main {
 	display: flex;
 	border-radius: 15px;
 	margin: 0 auto;
-}
-
-/*make the width of both 50% i.e half and equal.*/
-section {
-	width: 100%;
-	padding: 70px 50px;
 }
 
 section {
@@ -42,10 +34,51 @@ p {
 	text-align: center;
 }
 
-div{
-	position: static;
-}
+
 
 #description{
 	text-align: center;
 }
+
+.parent{
+	background-color: rgb(250, 250, 250);
+	margin: 0 auto;
+	border-radius: 4px;
+	width: 75%;
+	max-width: 900px;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+/*.labels {
+	display: inline-block;
+	text-align: left;
+	width: 40%;
+	padding: 5px;
+	vertical-align: top;
+	margin-top: 10px;
+}*/
+
+label {
+	display: inline-block;
+	width: 40%;
+	text-align: left;
+	padding: 5px;
+
+	}​
+
+	.input-field {
+		height: 20px;
+		width: 280px;
+		padding: 5px;
+		margin: 10px;
+		border: 1px solid #c0c0c0;
+		border-radius: 2px;
+		display: inline;
+	}
+
+	form {
+		display: block;
+		margin-top: 0em;
+	}
+

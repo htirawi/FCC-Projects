@@ -11,25 +11,30 @@
 	<h1 id="title">Survey Form</h1>
 
 	<main>
-		<section class="testimonial">
+		<div class="parent">
 			<div>
 				<p id="description">
 					Let us know how we can improve freeCodeCamp
 				</p>
 			</div>
-		</section>
+			<form id="survey-form" method="GET">
 
-		<form id="survey-form" method="GET">
+				<div class="block">
+					<label>Simple label</label>
+					<input type="text" />
+				</div>
+				<div class="block">
+					<label>Label with more text</label>
+					<input class="input-field" type="text" />
+				</div>
+				<div class="block">
+					<label>Short</label>
+					<input type="text" />
+				</div>
+			</form>
+		</div>
 
-			<div class="rowTab">
-				<div class="labels">
-					<label id="name-label" for="name">* Name: </label>
-				</div>
-				<div class="rightTab">
-					<input autofocus="" type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required="">
-				</div>
-			</div>
-		</form>
+		
 
 	</main>
 	</html>
